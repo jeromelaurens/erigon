@@ -23,14 +23,14 @@ import (
 	"strings"
 	"testing"
 
-	ethereum "github.com/ledgerwatch/erigon"
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
+	ethereum "github.com/jeromelaurens/erigon"
+	"github.com/jeromelaurens/erigon/accounts/abi"
+	"github.com/jeromelaurens/erigon/accounts/abi/bind"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/core/types"
+	"github.com/jeromelaurens/erigon/crypto"
+	"github.com/jeromelaurens/erigon/rlp"
 )
 
 type mockCaller struct {

@@ -1,8 +1,8 @@
 package tracers
 
 import (
-	"github.com/ledgerwatch/erigon/eth/tracers/logger"
-	"github.com/ledgerwatch/erigon/turbo/adapter/ethapi"
+	"github.com/jeromelaurens/erigon/eth/tracers/logger"
+	"github.com/jeromelaurens/erigon/turbo/adapter/ethapi"
 )
 
 // TraceConfig holds extra parameters to trace functions.

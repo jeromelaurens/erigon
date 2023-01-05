@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/core/vm/evmtypes"
+	"github.com/jeromelaurens/erigon/params"
 
 	"github.com/holiman/uint256"
 	"pgregory.net/rapid"

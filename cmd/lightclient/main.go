@@ -24,16 +24,16 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/fork"
-	"github.com/ledgerwatch/erigon/cmd/erigon-cl/core"
-	"github.com/ledgerwatch/erigon/cmd/lightclient/lightclient"
-	lcCli "github.com/ledgerwatch/erigon/cmd/sentinel/cli"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/cli/flags"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/handshake"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/service"
-	lightclientapp "github.com/ledgerwatch/erigon/turbo/app"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/fork"
+	"github.com/jeromelaurens/erigon/cmd/erigon-cl/core"
+	"github.com/jeromelaurens/erigon/cmd/lightclient/lightclient"
+	lcCli "github.com/jeromelaurens/erigon/cmd/sentinel/cli"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/cli/flags"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/handshake"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/service"
+	lightclientapp "github.com/jeromelaurens/erigon/turbo/app"
 )
 
 func main() {

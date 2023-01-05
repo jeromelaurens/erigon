@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/crypto"
+	"github.com/jeromelaurens/erigon/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

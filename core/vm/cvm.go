@@ -3,9 +3,9 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/vm/evmtypes"
+	"github.com/jeromelaurens/erigon/crypto"
 )
 
 func NewCVM(state evmtypes.IntraBlockState) *CVM {

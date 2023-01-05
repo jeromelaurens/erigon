@@ -8,12 +8,12 @@ import (
 	"github.com/anacrolix/sync"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/rawdb"
+	"github.com/jeromelaurens/erigon/core/types/accounts"
+	"github.com/jeromelaurens/erigon/turbo/trie/vtree"
 	"github.com/ledgerwatch/erigon-lib/etl"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/turbo/trie/vtree"
 	"github.com/ledgerwatch/log/v3"
 )
 

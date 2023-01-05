@@ -1,8 +1,8 @@
 package downloadernat
 
 import (
+	"github.com/jeromelaurens/erigon/p2p/nat"
 	"github.com/ledgerwatch/erigon-lib/downloader/downloadercfg"
-	"github.com/ledgerwatch/erigon/p2p/nat"
 	"github.com/ledgerwatch/log/v3"
 )
 

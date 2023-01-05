@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/models"
-	"github.com/ledgerwatch/erigon/cmd/rpctest/rpctest"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cmd/devnet/models"
+	"github.com/jeromelaurens/erigon/cmd/rpctest/rpctest"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 func GetBalance(reqId int, address common.Address, blockNum models.BlockNumber) (uint64, error) {

@@ -9,8 +9,8 @@ import (
 
 	types2 "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/eth/filters"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/eth/filters"
 )
 
 func createLog() *remote.SubscribeLogsReply {

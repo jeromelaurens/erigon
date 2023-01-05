@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/models"
+	"github.com/jeromelaurens/erigon/cmd/devnet/models"
 )
 
 // ClearDevDB cleans up the dev folder used for the operations

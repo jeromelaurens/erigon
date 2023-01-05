@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/params"
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/exp/slices"
 )

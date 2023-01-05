@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/jeromelaurens/erigon"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/rpc"
 	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/rpc"
 )
 
 // FilterCriteria represents a request to create a new filter.

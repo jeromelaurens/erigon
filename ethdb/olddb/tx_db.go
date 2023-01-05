@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/jeromelaurens/erigon/ethdb"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/ethdb"
 	"github.com/ledgerwatch/log/v3"
 )
 

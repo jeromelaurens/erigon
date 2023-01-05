@@ -17,8 +17,8 @@
 package params
 
 import (
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/params/networkname"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/params/networkname"
 )
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
@@ -73,7 +73,7 @@ var BscBootnodes = []string{
 	"enode://5a7b996048d1b0a07683a949662c87c09b55247ce774aeee10bb886892e586e3c604564393292e38ef43c023ee9981e1f8b335766ec4f0f256e57f8640b079d5@35.73.137.11:30311",
 }
 var SepoliaStaticPeers = []string{
-	// from https://github.com/ledgerwatch/erigon/issues/6134#issuecomment-1354923418
+	// from https://github.com/jeromelaurens/erigon/issues/6134#issuecomment-1354923418
 	"enode://8ae4559db1b1e160be8cc46018d7db123ed6d03fbbfe481da5ec05f71f0aa4d5f4b02ad059127096aa994568706a0d02933984083b87c5e1e3de2b7692444d37@35.161.233.158:46855",
 	"enode://d0b3b290422f35ec3e68356f3a4cdf9c661f71a868110670e31441a5021d7abd0440ae8dfb9360aafdd0198f177863361e3a7a7eb5e1a3e26575bf1ac3ef4ab3@162.19.136.65:48264",
 	"enode://d64624bda3cdb65d542c90757a4a661cfe9dddf8328bdb1ea97a8d70fad287c360f0101c492d8fd6ab30d79160a3bf148cacfd68f5d2e47eab0b709516419304@51.195.63.10:30040",
@@ -161,7 +161,7 @@ var BscStaticPeers = []string{
 	"enode://cb9d9f49c314188b2b9eb38572f16300c64ec2af30cfb044e27aad7f459e4ef52dc49ea2c31b78bebd8055b3bfaa94ddb6e96e75c0bd5928f5b7dc791d84371e@34.246.249.249:30311",
 	"enode://1f14309a0e695df7afa03512e931d2782301f185d068a98ae9b24e6be88637ad7a7390b8ea074e6b8eb4b62e3f9826936cd7164b4ee4102b74f5b8fc357181fd@18.213.93.106:30311",
 
-	// from: https://github.com/ledgerwatch/erigon/issues/6137#issuecomment-1330266787
+	// from: https://github.com/jeromelaurens/erigon/issues/6137#issuecomment-1330266787
 	"enode://f3cfd69f2808ef64838abd8786342c0b22fdd28268703c8d6812e26e109f9a7cb2b37bd49724ebb46c233289f22da82991c87345eb9a2dadeddb8f37eeb259ac@18.180.28.21:30311",
 	"enode://c0e8d1abd27c3c13ca879e16f34c12ffee936a7e5d7b7fb6f1af5cc75c6fad704e5667c7bbf7826fcb200d22b9bf86395271b0f76c21e63ad9a388ed548d4c90@54.65.247.12:30311",
 	"enode://b5772a14fdaeebf4c1924e73c923bdf11c35240a6da7b9e5ec0e6cbb95e78327690b90e8ab0ea5270debc8834454b98eca34cc2a19817f5972498648a6959a3a@54.170.158.102:30311",

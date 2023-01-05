@@ -26,13 +26,13 @@ import (
 	"time"
 
 	metrics2 "github.com/VictoriaMetrics/metrics"
+	"github.com/jeromelaurens/erigon/common/debug"
+	"github.com/jeromelaurens/erigon/common/mclock"
+	"github.com/jeromelaurens/erigon/event"
+	"github.com/jeromelaurens/erigon/p2p/enode"
+	"github.com/jeromelaurens/erigon/p2p/enr"
+	"github.com/jeromelaurens/erigon/rlp"
 	"github.com/ledgerwatch/erigon-lib/common/metrics"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/common/mclock"
-	"github.com/ledgerwatch/erigon/event"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
 	"github.com/ledgerwatch/log/v3"
 )
 

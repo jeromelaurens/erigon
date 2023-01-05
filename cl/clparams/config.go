@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/params/networkname"
+	"github.com/jeromelaurens/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/params/networkname"
 )
 
 type NetworkType int

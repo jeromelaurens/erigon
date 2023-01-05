@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/rawdb"
+	"github.com/jeromelaurens/erigon/core/types"
+	"github.com/jeromelaurens/erigon/ethdb/prune"
+	"github.com/jeromelaurens/erigon/params"
+	"github.com/jeromelaurens/erigon/turbo/snapshotsync"
 	common2 "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/cmp"
 	"github.com/ledgerwatch/erigon-lib/etl"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -23,10 +23,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/crypto"
+	"github.com/jeromelaurens/erigon/rlp"
 )
 
 // go:generate gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

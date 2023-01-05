@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/Giulio2002/bls"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
 )
 
 func (s *StateTransistor) transitionState(block *cltypes.SignedBeaconBlock, validate bool) error {

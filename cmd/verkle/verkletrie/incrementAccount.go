@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/debug"
+	"github.com/jeromelaurens/erigon/core/types/accounts"
 	common2 "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/temporal/historyv2"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -8,19 +8,19 @@ import (
 	"sync"
 
 	"github.com/holiman/uint256"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/consensus/ethash"
+	"github.com/jeromelaurens/erigon/core"
+	"github.com/jeromelaurens/erigon/core/rawdb"
+	"github.com/jeromelaurens/erigon/core/types"
+	"github.com/jeromelaurens/erigon/core/vm"
+	"github.com/jeromelaurens/erigon/params"
+	"github.com/jeromelaurens/erigon/rpc"
+	"github.com/jeromelaurens/erigon/turbo/adapter/ethapi"
+	"github.com/jeromelaurens/erigon/turbo/rpchelper"
+	"github.com/jeromelaurens/erigon/turbo/transactions"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/adapter/ethapi"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
-	"github.com/ledgerwatch/erigon/turbo/transactions"
 )
 
 // API_LEVEL Must be incremented every time new additions are made
@@ -365,7 +365,7 @@ func (api *OtterscanAPIImpl) delegateGetBlockByNumber(tx kv.Tx, b *types.Block, 
 	additionalFields := make(map[string]interface{})
 	response, err := ethapi.RPCMarshalBlock(b, inclTx, inclTx, additionalFields)
 	if !inclTx {
-		delete(response, "transactions") // workaround for https://github.com/ledgerwatch/erigon/issues/4989#issuecomment-1218415666
+		delete(response, "transactions") // workaround for https://github.com/jeromelaurens/erigon/issues/4989#issuecomment-1218415666
 	}
 	response["totalDifficulty"] = (*hexutil.Big)(td)
 	response["transactionCount"] = b.Transactions().Len()

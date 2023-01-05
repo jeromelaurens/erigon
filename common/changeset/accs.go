@@ -1,12 +1,12 @@
 package changeset
 
 import (
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/ethdb"
 	common2 "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/etl"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/temporal/historyv2"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/ethdb"
 )
 
 // GetModifiedAccounts returns a list of addresses that were modified in the block range

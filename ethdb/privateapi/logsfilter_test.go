@@ -9,8 +9,8 @@ import (
 	types2 "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 	"google.golang.org/grpc"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/turbo/shards"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/turbo/shards"
 )
 
 var (

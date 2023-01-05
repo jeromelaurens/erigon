@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/rlpx"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/forkid"
+	"github.com/jeromelaurens/erigon/crypto"
+	"github.com/jeromelaurens/erigon/eth/protocols/eth"
+	"github.com/jeromelaurens/erigon/p2p"
+	"github.com/jeromelaurens/erigon/p2p/rlpx"
+	"github.com/jeromelaurens/erigon/params"
+	"github.com/jeromelaurens/erigon/rlp"
 )
 
 // https://github.com/ethereum/devp2p/blob/master/rlpx.md#p2p-capability

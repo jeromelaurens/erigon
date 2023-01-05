@@ -1,8 +1,8 @@
 package fork
 
 import (
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/cl/clparams"
+	"github.com/jeromelaurens/erigon/cl/utils"
 	pubsubpb "github.com/libp2p/go-libp2p-pubsub/pb"
 )
 

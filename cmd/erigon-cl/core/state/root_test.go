@@ -3,8 +3,8 @@ package state_test
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cmd/erigon-cl/core/state"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cmd/erigon-cl/core/state"
 )
 
 func getTestBeaconState() *cltypes.BeaconStateBellatrix {

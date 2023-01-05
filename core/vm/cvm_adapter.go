@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/vm/evmtypes"
+	"github.com/jeromelaurens/erigon/params"
 )
 
 const CairoNotImplemented = "the method is currently not implemented for cvm: %s"

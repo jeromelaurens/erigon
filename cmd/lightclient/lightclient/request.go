@@ -3,7 +3,7 @@ package lightclient
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
 	"github.com/ledgerwatch/log/v3"
 )
 

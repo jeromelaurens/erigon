@@ -17,13 +17,13 @@
 package eth_test
 
 /*
-TODO: revive this tests for RPCDaemon - https://github.com/ledgerwatch/erigon/issues/939
+TODO: revive this tests for RPCDaemon - https://github.com/jeromelaurens/erigon/issues/939
 
 import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/ledgerwatch/erigon/turbo/adapter"
+	"github.com/jeromelaurens/erigon/turbo/adapter"
 	"reflect"
 	"sort"
 	"strconv"
@@ -31,14 +31,14 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/commands"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth"
-	"github.com/ledgerwatch/erigon/ethdb"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/jeromelaurens/erigon/cmd/rpcdaemon/commands"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/u256"
+	"github.com/jeromelaurens/erigon/core/state"
+	"github.com/jeromelaurens/erigon/crypto"
+	"github.com/jeromelaurens/erigon/eth"
+	"github.com/jeromelaurens/erigon/ethdb"
+	"github.com/jeromelaurens/erigon/turbo/trie"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

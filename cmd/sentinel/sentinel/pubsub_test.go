@@ -3,7 +3,7 @@ package sentinel
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/communication"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/communication"
 	"github.com/stretchr/testify/require"
 )
 

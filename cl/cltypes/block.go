@@ -3,10 +3,10 @@ package cltypes
 import (
 	"bytes"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/ethdb/cbor"
+	"github.com/jeromelaurens/erigon/cl/clparams"
+	"github.com/jeromelaurens/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/ethdb/cbor"
 )
 
 type SignedBeaconBlock struct {

@@ -7,10 +7,10 @@ import (
 	"os/exec"
 	"sort"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/turbo/trie"
-	"github.com/ledgerwatch/erigon/visual"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/crypto"
+	"github.com/jeromelaurens/erigon/turbo/trie"
+	"github.com/jeromelaurens/erigon/visual"
 )
 
 var pic = flag.String("pic", "", "specifies picture to regenerate")

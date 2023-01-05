@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/cmd/erigon-cl/core/rawdb"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/cmd/erigon-cl/core/rawdb"
 	"github.com/stretchr/testify/require"
 )
 

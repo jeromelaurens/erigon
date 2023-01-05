@@ -1,8 +1,8 @@
 package state
 
 import (
-	"github.com/ledgerwatch/erigon/cmd/erigon-cl/core/state/state_encoding"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cmd/erigon-cl/core/state/state_encoding"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 func (b *BeaconState) HashTreeRoot() ([32]byte, error) {

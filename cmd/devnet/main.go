@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/ledgerwatch/erigon/cmd/devnet/commands"
+	"github.com/jeromelaurens/erigon/cmd/devnet/commands"
 	"sync"
 	"time"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnetutils"
-	"github.com/ledgerwatch/erigon/cmd/devnet/node"
+	"github.com/jeromelaurens/erigon/cmd/devnet/devnetutils"
+	"github.com/jeromelaurens/erigon/cmd/devnet/node"
 )
 
 func main() {

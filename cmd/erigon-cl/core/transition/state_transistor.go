@@ -1,8 +1,8 @@
 package transition
 
 import (
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cmd/erigon-cl/core/state"
+	"github.com/jeromelaurens/erigon/cl/clparams"
+	"github.com/jeromelaurens/erigon/cmd/erigon-cl/core/state"
 )
 
 // StateTransistor takes care of state transition

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/ledgerwatch/erigon/cmd/observer/database"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/jeromelaurens/erigon/cmd/observer/database"
+	"github.com/jeromelaurens/erigon/p2p/enode"
 )
 
 func NodeID(node *enode.Node) (database.NodeID, error) {

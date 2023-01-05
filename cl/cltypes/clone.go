@@ -1,6 +1,6 @@
 package cltypes
 
-import "github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/communication"
+import "github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/communication"
 
 func (*SignedBeaconBlockBellatrix) Clone() communication.Packet {
 	return &SignedBeaconBlockBellatrix{}

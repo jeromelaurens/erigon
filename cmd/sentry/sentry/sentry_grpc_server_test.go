@@ -13,13 +13,13 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core"
+	"github.com/jeromelaurens/erigon/core/forkid"
+	"github.com/jeromelaurens/erigon/core/rawdb"
+	"github.com/jeromelaurens/erigon/eth/protocols/eth"
+	"github.com/jeromelaurens/erigon/p2p"
+	"github.com/jeromelaurens/erigon/params"
 )
 
 func testSentryServer(db kv.Getter, genesis *core.Genesis, genesisHash common.Hash) *GrpcServer {

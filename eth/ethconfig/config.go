@@ -27,17 +27,17 @@ import (
 	"time"
 
 	"github.com/c2h5oh/datasize"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/consensus/ethash"
+	"github.com/jeromelaurens/erigon/core"
+	"github.com/jeromelaurens/erigon/eth/ethconfig/estimate"
+	"github.com/jeromelaurens/erigon/eth/gasprice"
+	"github.com/jeromelaurens/erigon/ethdb/prune"
+	"github.com/jeromelaurens/erigon/params"
+	"github.com/jeromelaurens/erigon/params/networkname"
 	"github.com/ledgerwatch/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/erigon-lib/downloader/downloadercfg"
 	txpool2 "github.com/ledgerwatch/erigon-lib/txpool"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/eth/ethconfig/estimate"
-	"github.com/ledgerwatch/erigon/eth/gasprice"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/params/networkname"
 )
 
 // AggregationStep number of transactions in smallest static file

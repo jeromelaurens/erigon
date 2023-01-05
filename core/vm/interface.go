@@ -19,12 +19,12 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/core/vm/evmtypes"
+	"github.com/jeromelaurens/erigon/params"
 
 	"github.com/holiman/uint256"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 // CallContext provides a basic interface for the EVM calling conventions. The EVM

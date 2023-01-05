@@ -3,8 +3,8 @@ package requests
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/models"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cmd/devnet/models"
+	"github.com/jeromelaurens/erigon/common"
 	"github.com/stretchr/testify/require"
 )
 

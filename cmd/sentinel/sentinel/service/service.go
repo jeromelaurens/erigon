@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/communication"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
 	sentinelrpc "github.com/ledgerwatch/erigon-lib/gointerfaces/sentinel"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/communication"
 	"github.com/ledgerwatch/log/v3"
 	ssz "github.com/prysmaticlabs/fastssz"
 )

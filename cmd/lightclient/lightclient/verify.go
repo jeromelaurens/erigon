@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/Giulio2002/bls"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/fork"
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/fork"
+	"github.com/jeromelaurens/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 const MinSyncCommitteeParticipants = 1

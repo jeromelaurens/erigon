@@ -1,7 +1,7 @@
 package trie
 
 import (
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 var emptyHash [32]byte

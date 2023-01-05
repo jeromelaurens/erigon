@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/visual"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/visual"
 )
 
 // VisualOpts contains various configuration options fo the Visual function

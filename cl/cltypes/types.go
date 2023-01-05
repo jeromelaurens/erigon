@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	ssz "github.com/ferranbt/fastssz"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/cl/utils"
 )
 
 // Eth1Data represents the relevant ETH1 Data for block buidling.

@@ -21,7 +21,7 @@ import (
 	"io"
 
 	"github.com/golang/snappy"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
 	ssz "github.com/prysmaticlabs/fastssz"
 )
 

@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/p2p"
+	"github.com/jeromelaurens/erigon/p2p"
 )
 
 const (

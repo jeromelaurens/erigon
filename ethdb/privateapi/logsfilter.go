@@ -5,11 +5,11 @@ import (
 	"io"
 	"sync"
 
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/turbo/shards"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/types"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/turbo/shards"
 )
 
 type LogsFilterAggregator struct {

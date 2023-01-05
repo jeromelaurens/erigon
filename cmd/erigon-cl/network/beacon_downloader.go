@@ -3,9 +3,9 @@ package network
 import (
 	"sync"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/rpc"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cl/rpc"
+	"github.com/jeromelaurens/erigon/common"
 	"golang.org/x/net/context"
 )
 

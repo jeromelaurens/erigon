@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/systemcontracts"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/state"
+	"github.com/jeromelaurens/erigon/core/systemcontracts"
+	"github.com/jeromelaurens/erigon/rpc"
+	"github.com/jeromelaurens/erigon/turbo/rpchelper"
 )
 
 func (api *OtterscanAPIImpl) HasCode(ctx context.Context, address common.Address, blockNrOrHash rpc.BlockNumberOrHash) (bool, error) {

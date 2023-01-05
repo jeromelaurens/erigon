@@ -1,6 +1,6 @@
 package state_encoding
 
-import "github.com/ledgerwatch/erigon/cl/utils"
+import "github.com/jeromelaurens/erigon/cl/utils"
 
 // ParticipationBitsRoot computes the HashTreeRoot merkleization of
 // participation roots.

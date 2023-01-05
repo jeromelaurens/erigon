@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnetutils"
-	"github.com/ledgerwatch/erigon/cmd/devnet/models"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/jeromelaurens/erigon/cmd/devnet/devnetutils"
+	"github.com/jeromelaurens/erigon/cmd/devnet/models"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/rpc"
 )
 
 var subscriptionChan = make(chan interface{})

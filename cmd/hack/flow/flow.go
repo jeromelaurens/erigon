@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/jeromelaurens/erigon/cmd/hack/tool"
+	"github.com/jeromelaurens/erigon/common/debug"
+	"github.com/jeromelaurens/erigon/core/vm"
 	"github.com/ledgerwatch/erigon-lib/common/dbg"
-	"github.com/ledgerwatch/erigon/cmd/hack/tool"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/core/vm"
 )
 
 const (

@@ -3,8 +3,8 @@ package network
 import (
 	"context"
 
+	"github.com/jeromelaurens/erigon/cl/cltypes"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentinel"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
 	"github.com/ledgerwatch/log/v3"
 )
 

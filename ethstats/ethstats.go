@@ -32,14 +32,14 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
+	"github.com/jeromelaurens/erigon/cmd/sentry/sentry"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/consensus"
+	"github.com/jeromelaurens/erigon/core/rawdb"
+	"github.com/jeromelaurens/erigon/core/types"
+	"github.com/jeromelaurens/erigon/eth/stagedsync/stages"
+	"github.com/jeromelaurens/erigon/node"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cmd/sentry/sentry"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/node"
 	"github.com/ledgerwatch/log/v3"
 )
 

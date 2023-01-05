@@ -23,12 +23,12 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/core/state"
+	"github.com/jeromelaurens/erigon/core/vm/evmtypes"
+	"github.com/jeromelaurens/erigon/params"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

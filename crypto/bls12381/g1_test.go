@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 func (g *G1) one() *PointG1 {

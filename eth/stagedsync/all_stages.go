@@ -5,8 +5,8 @@ import (
 
 	"github.com/VictoriaMetrics/metrics"
 	"github.com/huandu/xstrings"
+	"github.com/jeromelaurens/erigon/eth/stagedsync/stages"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
 )
 
 var syncMetrics = map[stages.SyncStage]*metrics.Counter{}

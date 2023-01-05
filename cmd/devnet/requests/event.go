@@ -3,10 +3,10 @@ package requests
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnetutils"
-	"github.com/ledgerwatch/erigon/cmd/devnet/models"
-	"github.com/ledgerwatch/erigon/cmd/rpctest/rpctest"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cmd/devnet/devnetutils"
+	"github.com/jeromelaurens/erigon/cmd/devnet/models"
+	"github.com/jeromelaurens/erigon/cmd/rpctest/rpctest"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 func GetLogs(reqId int, fromBlock uint64, toBlock uint64, address common.Address, printLogs bool) error {

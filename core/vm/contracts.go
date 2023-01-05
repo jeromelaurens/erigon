@@ -24,13 +24,13 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/crypto/blake2b"
-	"github.com/ledgerwatch/erigon/crypto/bls12381"
-	"github.com/ledgerwatch/erigon/crypto/bn256"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/math"
+	"github.com/jeromelaurens/erigon/crypto"
+	"github.com/jeromelaurens/erigon/crypto/blake2b"
+	"github.com/jeromelaurens/erigon/crypto/bls12381"
+	"github.com/jeromelaurens/erigon/crypto/bn256"
+	"github.com/jeromelaurens/erigon/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

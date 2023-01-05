@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/jeromelaurens/erigon/common"
 	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon/common"
 )
 
 const NumberLength = 8

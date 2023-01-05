@@ -3,9 +3,9 @@ package state_encoding_test
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cmd/erigon-cl/core/state/state_encoding"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cmd/erigon-cl/core/state/state_encoding"
+	"github.com/jeromelaurens/erigon/common"
 	"github.com/stretchr/testify/require"
 )
 

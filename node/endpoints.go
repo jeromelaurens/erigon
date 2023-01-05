@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/jeromelaurens/erigon/rpc"
+	"github.com/jeromelaurens/erigon/rpc/rpccfg"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -3,7 +3,7 @@ package cltypes
 import (
 	"encoding/binary"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 const maxAttestationSize = 2276

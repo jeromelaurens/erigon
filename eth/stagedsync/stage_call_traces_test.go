@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/RoaringBitmap/roaring/roaring64"
+	"github.com/jeromelaurens/erigon/eth/stagedsync/stages"
 	common2 "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/bitmapdb"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -9,10 +9,10 @@ import (
 	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/forkid"
+	"github.com/jeromelaurens/erigon/eth/protocols/eth"
+	"github.com/jeromelaurens/erigon/params"
 )
 
 func TestCheckPeerStatusCompatibility(t *testing.T) {

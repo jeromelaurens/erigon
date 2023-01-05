@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/communication"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/communication"
 	"github.com/ledgerwatch/log/v3"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"

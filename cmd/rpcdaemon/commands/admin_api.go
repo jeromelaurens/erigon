@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/jeromelaurens/erigon/p2p"
+	"github.com/jeromelaurens/erigon/turbo/rpchelper"
 )
 
 // AdminAPI the interface for the admin_* RPC commands.

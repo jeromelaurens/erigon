@@ -16,11 +16,11 @@ package handlers
 import (
 	"context"
 
+	"github.com/jeromelaurens/erigon/cl/clparams"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/communication"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/peers"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/communication"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/peers"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"

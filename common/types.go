@@ -28,8 +28,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/crypto/cryptopool"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/crypto/cryptopool"
 )
 
 // Lengths of hashes and addresses in bytes.

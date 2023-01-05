@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/types"
+	"github.com/jeromelaurens/erigon/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

@@ -3,8 +3,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/services"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cmd/devnet/services"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 func callSubscribeToNewHeads(hash common.Hash) {

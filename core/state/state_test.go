@@ -22,14 +22,14 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
+	"github.com/jeromelaurens/erigon/params"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/params"
 	checker "gopkg.in/check.v1"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/types/accounts"
+	"github.com/jeromelaurens/erigon/crypto"
 )
 
 var toAddr = common.BytesToAddress

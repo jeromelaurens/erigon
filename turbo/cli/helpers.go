@@ -22,7 +22,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/params"
 )
 
 // HelpData is a one shot struct to pass to the usage template

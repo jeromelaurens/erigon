@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/holiman/uint256"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/common"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/types"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/common"
 )
 
 func convertLightrpcExecutionPayloadToEthbacked(e *cltypes.ExecutionPayload) *types.ExecutionPayload {

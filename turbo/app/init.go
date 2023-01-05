@@ -7,10 +7,10 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
+	"github.com/jeromelaurens/erigon/cmd/utils"
+	"github.com/jeromelaurens/erigon/core"
+	"github.com/jeromelaurens/erigon/node"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/node"
 )
 
 var initCommand = cli.Command{

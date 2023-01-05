@@ -3,7 +3,7 @@ package trie
 import (
 	"math/big"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/common"
 	"github.com/ugorji/go/codec"
 )
 

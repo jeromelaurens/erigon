@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/common"
 	"github.com/ledgerwatch/log/v3"
 )
 

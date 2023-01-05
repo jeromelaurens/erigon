@@ -32,9 +32,9 @@ import (
 	"testing/quick"
 
 	"github.com/holiman/uint256"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/types"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types"
 )
 
 func TestSnapshotRandom(t *testing.T) {

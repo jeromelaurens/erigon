@@ -3,8 +3,8 @@ package requests
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnetutils"
-	"github.com/ledgerwatch/erigon/cmd/rpctest/rpctest"
+	"github.com/jeromelaurens/erigon/cmd/devnet/devnetutils"
+	"github.com/jeromelaurens/erigon/cmd/rpctest/rpctest"
 )
 
 func TxpoolContent(reqId int) (int, int, error) {

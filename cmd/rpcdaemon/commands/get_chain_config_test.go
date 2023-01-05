@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/jeromelaurens/erigon/core"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/core"
 )
 
 func TestGetChainConfig(t *testing.T) {

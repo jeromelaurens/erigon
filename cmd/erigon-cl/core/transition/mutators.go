@@ -1,7 +1,7 @@
 package transition
 
 import (
-	"github.com/ledgerwatch/erigon/cmd/erigon-cl/core/state"
+	"github.com/jeromelaurens/erigon/cmd/erigon-cl/core/state"
 )
 
 const (

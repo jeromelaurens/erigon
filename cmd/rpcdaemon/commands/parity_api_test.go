@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/jeromelaurens/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

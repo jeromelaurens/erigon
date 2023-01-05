@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/crypto"
 )
 
 type Error struct {

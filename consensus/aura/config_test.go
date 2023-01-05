@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus/aura/consensusconfig"
-	"github.com/ledgerwatch/erigon/params/networkname"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/consensus/aura/consensusconfig"
+	"github.com/jeromelaurens/erigon/params/networkname"
 )
 
 func TestGnosisBlockRewardContractTransitions(t *testing.T) {

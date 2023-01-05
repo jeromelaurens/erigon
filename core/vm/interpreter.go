@@ -22,10 +22,10 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core/vm/stack"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/math"
+	"github.com/jeromelaurens/erigon/core/vm/stack"
+	"github.com/jeromelaurens/erigon/params"
 )
 
 // Config are the configuration options for the Interpreter

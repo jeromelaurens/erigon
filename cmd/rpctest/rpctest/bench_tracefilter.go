@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/jeromelaurens/erigon/common"
 )
 
 // Compares response of Erigon with OpenEthereum

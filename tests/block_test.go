@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
+	"github.com/jeromelaurens/erigon/eth/ethconfig"
 	"github.com/ledgerwatch/log/v3"
 )
 

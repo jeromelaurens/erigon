@@ -4,10 +4,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/event"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core"
+	"github.com/jeromelaurens/erigon/core/types"
+	"github.com/jeromelaurens/erigon/event"
 )
 
 // TestTxPool is a mock transaction pool that blindly accepts all transactions.

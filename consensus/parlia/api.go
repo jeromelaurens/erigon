@@ -17,10 +17,10 @@
 package parlia
 
 import (
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/consensus"
+	"github.com/jeromelaurens/erigon/core/types"
+	"github.com/jeromelaurens/erigon/rpc"
 )
 
 // API is a user facing RPC API to allow query snapshot and validators

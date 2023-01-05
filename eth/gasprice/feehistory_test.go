@@ -21,9 +21,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/commands"
-	"github.com/ledgerwatch/erigon/eth/gasprice"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/jeromelaurens/erigon/cmd/rpcdaemon/commands"
+	"github.com/jeromelaurens/erigon/eth/gasprice"
+	"github.com/jeromelaurens/erigon/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

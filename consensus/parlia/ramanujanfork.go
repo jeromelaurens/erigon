@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/jeromelaurens/erigon/consensus"
+	"github.com/jeromelaurens/erigon/core/types"
 )
 
 const (

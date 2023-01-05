@@ -22,10 +22,10 @@ import (
 	"sort"
 
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/consensus"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/hexutil"
+	"github.com/jeromelaurens/erigon/common/u256"
+	"github.com/jeromelaurens/erigon/consensus"
 )
 
 // Draws an validator nonce modulo number of validators.

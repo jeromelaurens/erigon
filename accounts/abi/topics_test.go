@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

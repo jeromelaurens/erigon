@@ -5,13 +5,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/common/dbutils"
+	"github.com/jeromelaurens/erigon/eth/stagedsync/stages"
+	"github.com/jeromelaurens/erigon/params"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/etl"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/dbutils"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/params"
 )
 
 func extractHeaders(k []byte, v []byte, next etl.ExtractNextFunc) error {

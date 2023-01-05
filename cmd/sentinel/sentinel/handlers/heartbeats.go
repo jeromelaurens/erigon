@@ -14,8 +14,8 @@
 package handlers
 
 import (
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/communication/ssz_snappy"
+	"github.com/jeromelaurens/erigon/cl/cltypes"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/communication/ssz_snappy"
 	"github.com/libp2p/go-libp2p/core/network"
 )
 

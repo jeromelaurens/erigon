@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/turbo/trie/vtree"
+	"github.com/jeromelaurens/erigon/common"
+	"github.com/jeromelaurens/erigon/core/types/accounts"
+	"github.com/jeromelaurens/erigon/turbo/trie/vtree"
 )
 
 type regeneratePedersenAccountsJob struct {

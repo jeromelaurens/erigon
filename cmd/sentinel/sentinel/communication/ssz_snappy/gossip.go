@@ -16,8 +16,8 @@ package ssz_snappy
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinel/communication"
+	"github.com/jeromelaurens/erigon/cl/utils"
+	"github.com/jeromelaurens/erigon/cmd/sentinel/sentinel/communication"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	ssz "github.com/prysmaticlabs/fastssz"
 )

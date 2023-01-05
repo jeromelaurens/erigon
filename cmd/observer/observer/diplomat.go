@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ledgerwatch/erigon/cmd/observer/database"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/jeromelaurens/erigon/cmd/observer/database"
+	"github.com/jeromelaurens/erigon/p2p"
+	"github.com/jeromelaurens/erigon/p2p/enode"
 	"github.com/ledgerwatch/log/v3"
 )
 
