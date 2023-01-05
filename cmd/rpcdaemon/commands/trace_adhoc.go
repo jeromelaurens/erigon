@@ -59,6 +59,7 @@ type TraceCallParam struct {
 type TraceCallResult struct {
 	Output          hexutil.Bytes                        `json:"output"`
 	GasUsed         uint64                               `json:"gasUsed"`
+	Failed          bool                                 `json:"failed"`
 	StateDiff       map[common.Address]*StateDiffAccount `json:"stateDiff"`
 	Trace           []*ParityTrace                       `json:"trace"`
 	VmTrace         *VmTrace                             `json:"vmTrace"`
@@ -1000,6 +1001,10 @@ func (api *TraceAPIImpl) Call(ctx context.Context, args TraceCallParam, traceTyp
 	}
 	traceResult.Output = common.CopyBytes(execResult.ReturnData)
 	traceResult.GasUsed = execResult.UsedGas
+	traceResult.Failed = execResult.Failed()
+	if traceResult.Failed && len(execResult.Revert()) > 0 {
+		traceResult.Output = common.CopyBytes(execResult.Revert())
+	}
 	if traceTypeStateDiff {
 		sdMap := make(map[common.Address]*StateDiffAccount)
 		traceResult.StateDiff = sdMap
